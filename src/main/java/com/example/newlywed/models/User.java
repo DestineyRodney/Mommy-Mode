@@ -129,7 +129,22 @@ public class User {
         this.zipcode = zipcode;
     }
 
+//    CONSTRUCTORS
 
+    public User(long id, String firstName, String lastName, String username, String email, String dateOfBirth, String address, String city, String state, int zipcode) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.username = username;
+        this.email = email;
+        this.dateOfBirth = dateOfBirth;
+        this.address = address;
+        this.city = city;
+        this.state = state;
+        this.zipcode = zipcode;
+    }
+//    makes sure instance is always valid
+    public User(){}
 }
 
 
