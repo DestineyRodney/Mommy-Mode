@@ -1,6 +1,6 @@
-/*body {*/
-/*    background-color: burlywood;*/
-/*}*/
+body {
+    background-color: burlywood;
+}
 
 nav{
     background-color: #2d772d;
@@ -14,6 +14,6 @@ h1, h3, .navbar-brand{
     font-family: 'Dancing Script', cursive;
     font-family: 'Noto Serif Display', serif;
 }
-/*h1{*/
-/*    color: #93593f;*/
-/*}*/
+h1{
+    color: #93593f;
+}
