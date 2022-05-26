@@ -15,16 +15,16 @@ public class NewlyWedApplication {
 
     }
 
-    @Bean
-    public CommandLineRunner run(UserRepository repository){
-        return (args ->{
-            insertJavaAdvocates(repository);
-            System.out.println(repository.findAll());
-        });
-    }
+//    @Bean
+//    public CommandLineRunner run(UserRepository repository){
+//        return (args ->{
+//            insertJavaAdvocates(repository);
+//            System.out.println(repository.findAll());
+//        });
+//    }
 
-    private void insertJavaAdvocates(UserRepository repository){
-        repository.save(new User());
-    }
+//    private void insertJavaAdvocates(UserRepository repository){
+//        repository.save(new User());
+//    }
 
 }
